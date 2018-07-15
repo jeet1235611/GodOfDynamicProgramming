@@ -4,9 +4,12 @@ using namespace std;
 int fib(int n) {
 
 //Base case.
-	if(n <= 1){
+	if(n == 0)
+		return 0;
+	
+
+	if(n == 1)
 		return 1;
-	}
 	
 
 //Recursive Case.	
